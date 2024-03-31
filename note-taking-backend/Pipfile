@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+mysqlclient = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+requests = "*"
+pytesseract = "*"
+numpy = "*"
+opencv-python = "*"
+openai = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
